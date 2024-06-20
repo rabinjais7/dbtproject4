@@ -6,6 +6,7 @@ sources:
     schema: raw
     tables:
       - name: customers
+        description: this is the customer table from source
                   
       - name: orders
       - name: product
