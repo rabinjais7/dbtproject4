@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: raw_customers
+    description:  '{{ doc("customer_details")}}'
+    columns:
+      - name: customerid
+        description: this column should be unique 
+        tests:
+          - not_null
+          - unique
+              
